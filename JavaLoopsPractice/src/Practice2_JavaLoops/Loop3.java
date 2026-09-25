@@ -1,0 +1,17 @@
+package Practice2_JavaLoops;
+
+public class Loop3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("\nLoop 3:"); 
+		int r = 5; 
+		do 
+		{ 
+		 r = r - 2; 
+		 System.out.println("Hello"); 
+		}while(r > -5); 
+		System.out.println(r);
+	}
+
+}
